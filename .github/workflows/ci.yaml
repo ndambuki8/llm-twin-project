@@ -32,7 +32,7 @@ jobs:
         poetry self add 'poethepoet[poetry_plugin]'
 
     - name: gitleaks check
-      run:; poetry pooe gitleaks-check
+      run: poetry pooe gitleaks-check
 
     - name: Lint check [Python]
       run: poetry poe lint lint-check
